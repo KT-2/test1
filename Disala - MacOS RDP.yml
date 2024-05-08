@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     
     steps:                 
-    - name: 2gAWHwV0bbzJrQDY6FYUthgfXaK_28f9XKWrnXB9kHUqsPpXC
+    - name: Enabling RDP Access
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
       run: |
